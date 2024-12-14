@@ -9,13 +9,13 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f4f4f9;
-            color: #333;
+            background: #000;
+            color: #fff;
             overflow-x: hidden;
         }
 
         header {
-            background-color: #1e88e5;
+            background-color: #000;
             color: white;
             padding: 20px;
             text-align: center;
@@ -43,20 +43,21 @@
 
         .logo {
             position: absolute;
-            opacity: 0.2;
-            animation: fly 15s linear infinite;
+            opacity: 0.05;
+            animation: fly 20s linear infinite;
+            width: 150px;
         }
 
         @keyframes fly {
             0% {
-                transform: translate(-50%, 100%) scale(0.5);
-                opacity: 0.2;
+                transform: translate(-50%, 100%) scale(1);
+                opacity: 0.05;
             }
             50% {
-                opacity: 0.5;
+                opacity: 0.1;
             }
             100% {
-                transform: translate(150%, -100%) scale(0.2);
+                transform: translate(150%, -100%) scale(0.5);
                 opacity: 0;
             }
         }
@@ -64,7 +65,7 @@
         .hero {
             position: relative;
             height: 400px;
-            background: #1e88e5;
+            background: #000;
             color: white;
             text-align: center;
             overflow: hidden;
@@ -91,9 +92,9 @@
         }
 
         .contact-form {
-            background: white;
+            background: #222;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
             padding: 20px;
             max-width: 400px;
             margin: 20px auto;
@@ -103,25 +104,27 @@
             width: 100%;
             padding: 10px;
             margin: 10px 0;
-            border: 1px solid #ddd;
+            border: 1px solid #555;
             border-radius: 5px;
+            background: #333;
+            color: white;
         }
 
         .contact-form button {
-            background-color: #1e88e5;
+            background-color: #444;
             color: white;
             border: none;
             cursor: pointer;
         }
 
         .contact-form button:hover {
-            background-color: #166bb5;
+            background-color: #666;
         }
 
         footer {
             text-align: center;
             padding: 20px;
-            background: #1e88e5;
+            background: #000;
             color: white;
         }
 
@@ -137,11 +140,13 @@
     </header>
 
     <div class="logos">
-        <img src="logo1.png" class="logo" style="top: 10%; left: 20%; animation-delay: 0s;" alt="Carrier Logo">
-        <img src="logo2.png" class="logo" style="top: 30%; left: 40%; animation-delay: 2s;" alt="Carrier Logo">
-        <img src="logo3.png" class="logo" style="top: 50%; left: 60%; animation-delay: 4s;" alt="Carrier Logo">
-        <img src="logo4.png" class="logo" style="top: 70%; left: 80%; animation-delay: 6s;" alt="Carrier Logo">
-        <img src="logo5.png" class="logo" style="top: 90%; left: 10%; animation-delay: 8s;" alt="Carrier Logo">
+        <img src="logo1.png" class="logo" style="top: 5%; left: 10%; animation-delay: 0s;" alt="Carrier Logo">
+        <img src="logo2.png" class="logo" style="top: 20%; left: 30%; animation-delay: 3s;" alt="Carrier Logo">
+        <img src="logo3.png" class="logo" style="top: 35%; left: 50%; animation-delay: 6s;" alt="Carrier Logo">
+        <img src="logo4.png" class="logo" style="top: 50%; left: 70%; animation-delay: 9s;" alt="Carrier Logo">
+        <img src="logo5.png" class="logo" style="top: 65%; left: 20%; animation-delay: 12s;" alt="Carrier Logo">
+        <img src="logo6.png" class="logo" style="top: 80%; left: 40%; animation-delay: 15s;" alt="Carrier Logo">
+        <img src="logo7.png" class="logo" style="top: 95%; left: 60%; animation-delay: 18s;" alt="Carrier Logo">
     </div>
 
     <div class="hero">
